@@ -1,0 +1,7 @@
+/result/result3/*
+!/result/result3/transfer/
+!/result/result3/transfer/*
+/pics/*
+/data/*
+/data_task/*
+/code/*.csv
