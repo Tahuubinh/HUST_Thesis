@@ -12,7 +12,7 @@ if __name__ == "__main__":
             Run_DQL(f'{args.folder_name}/{i}', gamma = args.gamma, target_model_update = args.target_model_update)
         elif args.algorithm.upper() == 'DDQN':
             Run_DDQL(f'{args.folder_name}/{i}', gamma = args.gamma, target_model_update = args.target_model_update)
-        elif args.algorithm.upper() == 'DuelingDQN':
+        elif args.algorithm.upper() == 'DUELINGDQN':
             Run_DuelingDQL(f'{args.folder_name}/{i}', gamma = args.gamma, target_model_update = args.target_model_update)
         elif args.algorithm.upper() == 'D3QN':
             Run_D3QL(f'{args.folder_name}/{i}', gamma = args.gamma, target_model_update = args.target_model_update)

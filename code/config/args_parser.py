@@ -13,7 +13,7 @@ def args_parser():
     parser.add_argument(
         '--link_project', default=f'{LINK_PROJECT}', help='Link project')
     parser.add_argument(
-        '--algorithm', default=f'AODAI', help='Algorithm to run')
+        '--algorithm', default=f'AODAI', help='Algorithm to run [DQN, DDQN, DuelingDQN, D3QN, AODAI, SARSA, SL, ST, AC, RF], not case-sensitive')
     parser.add_argument(
         '--folder_name', default=f'test', help='Folder to save results')
     # simulation parameters
