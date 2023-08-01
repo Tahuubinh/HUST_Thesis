@@ -7,10 +7,10 @@ import torch.nn.functional as F
 import torch.optim as optim
 import copy
 from environment import *
-from mix_state_env import MixStateEnv
-from config import *
+from environment.mix_state_env import MixStateEnv
+from config.config import *
 import copy
-from MyGlobal import MyGlobals
+from config.MyGlobal import MyGlobals
 
 #A The loss function expects an array of action probabilities for the actions that were taken and the discounted rewards.
 #B It computes the log of the probabilities, multiplies by the discounted rewards, sums them all and flips the sign.

@@ -7,10 +7,10 @@ import torch.nn.functional as F
 import torch.optim as optim
 import copy
 from environment import *
-from mix_state_env import MixStateEnv
-from config import *
+from environment.mix_state_env import MixStateEnv
+from config.config import *
 import copy
-from MyGlobal import MyGlobals
+from config.MyGlobal import MyGlobals
 from itertools import count
 from torch.distributions import Categorical
 

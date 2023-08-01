@@ -7,9 +7,9 @@ from gym.utils import seeding
 import copy
 import os
 
-from config import *
-from VEC_util import getRateTransData
-from MyGlobal import MyGlobals
+from config.config import *
+from environment.VEC_util import getRateTransData
+from config.MyGlobal import MyGlobals
 
 
 class BusEnv(gym.Env):

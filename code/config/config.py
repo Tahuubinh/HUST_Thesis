@@ -1,12 +1,12 @@
 import os
 from pathlib import Path
-from args_parser import args_parser
+from config.args_parser import args_parser
 import sys
 
 args = args_parser()
 
 LINK_PROJECT = Path(os.path.abspath(__file__))
-LINK_PROJECT = LINK_PROJECT.parent.parent
+LINK_PROJECT = LINK_PROJECT.parent.parent.parent
 # print(LINK_PROJECT)
 # data 3 is the main one
 # 800 5, 1400 10, 2600 20, 3800 30, 5000 40, 6200 50
@@ -34,7 +34,7 @@ else:
 # DATA_LOCATION = "data_task/data3/"
 DATA_LOCATION = "data_task/data" + str(NUM_TASKS_PER_TIME_SLOT) + "/"
 DATA_DIR = os.path.join(LINK_PROJECT, "data")
-RESULT_DIR = os.path.join(LINK_PROJECT, "result/result3/")
+RESULT_DIR = os.path.join(LINK_PROJECT, "result/")
 DATA_TASK = os.path.join(LINK_PROJECT, DATA_LOCATION)
 COMPUTATIONAL_CAPACITY_900 = 2  # Ghz
 COMPUTATIONAL_CAPACITY_901 = 2  # Ghz

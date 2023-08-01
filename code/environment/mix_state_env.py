@@ -1,4 +1,4 @@
-from environment import BusEnv
+from environment.environment import BusEnv
 
 class MixStateEnv(BusEnv):
     def __init__(self):

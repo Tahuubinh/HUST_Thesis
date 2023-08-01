@@ -8,7 +8,7 @@ import numpy as np
 from rl.core import Agent
 from rl.policy import EpsGreedyQPolicy, GreedyQPolicy
 from rl.util import *
-from dqnMEC import AbstractDQNAgent
+from algorithm.value_based.dqnMEC import AbstractDQNAgent
 
 
 def mean_q(y_true, y_pred):

@@ -3,9 +3,8 @@ from tensorflow.keras.layers import (Activation, Concatenate, Dense, Dropout,
                                      Flatten, Input)
 from tensorflow.keras.models import Model, Sequential
 from tensorflow.keras.optimizers import Adam
-from FDQO_method import DQNAgent
-from policy import EpsGreedyQPolicy
-from config import Config
+from algorithm.value_based.policy import EpsGreedyQPolicy
+from config.config import Config
 from rl.memory import SequentialMemory
 
 class Model_Deep_Q_Learning:

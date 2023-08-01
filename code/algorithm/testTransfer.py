@@ -25,21 +25,18 @@ from tensorflow.keras.models import Model, Sequential
 from tensorflow.keras.optimizers import Adam
 import sys
 
-from fuzzy_controller import *
 from environment import *
-from mix_state_env import MixStateEnv
-from model import *
-from policy import *
-from callback import *
-from fuzzy_controller import *
+from environment.mix_state_env import MixStateEnv
+from algorithm.value_based.model import *
+from algorithm.value_based.policy import *
+from algorithm.value_based.callback import *
 import os
-from config import *
-from MyGlobal import MyGlobals
+from config.config import *
+from config.MyGlobal import MyGlobals
 from keras.models import load_model
 
-from dqnMEC import DQNAgent
-from siblingDQN import SiblingDQN
-from ExpectedTaskDQN import ExpectedTaskDQN
+from algorithm.value_based.dqnMEC import DQNAgent
+from algorithm.value_based.ExpectedTaskDQN import ExpectedTaskDQN
 import time
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
