@@ -34,11 +34,11 @@ You can generate new data using [/code/config/random_task](https://github.com/Ta
 
 Folder *data* contains preprocessed real [GPS data](https://kaggle.com/igorbalteiro/gps-data-from-rio-de-janeiro-buses) of buses in Rio de Janeiro, a state of Brazil in South America.
 
-> Note: Both folders in the zip file should be put in the root of this repository! E.g. [/data_task/](https://github.com/Tahuubinh/HUST_Thesis/blob/main/data_task/)
+> Note: Both folders in the zip file should be put in the root of this repository! E.g. [./data_task/](https://github.com/Tahuubinh/HUST_Thesis/blob/main/data_task/)
 
 ## Reproducing experiments
 
-To provide a flexible and powerful way to parse command-line arguments, I use *argparse* module. Open [/code/config/args_parser.py](https://github.com/Tahuubinh/HUST_Thesis/blob/main/code/config/args_parser.py) to see all arguments, their purposes, and default values. To run the experiments, you must be in [/code/](https://github.com/Tahuubinh/HUST_Thesis/blob/main/code/). All results will be saved in [/result/](https://github.com/Tahuubinh/HUST_Thesis/blob/main/result/).
+To provide a flexible and powerful way to parse command-line arguments, I use *argparse* module. Open [/code/config/args_parser.py](https://github.com/Tahuubinh/HUST_Thesis/blob/main/code/config/args_parser.py) to see all arguments, their purposes, and default values. To run the experiments, you must be in [./code/](https://github.com/Tahuubinh/HUST_Thesis/blob/main/code/). All results will be saved in [./result/](https://github.com/Tahuubinh/HUST_Thesis/blob/main/result/).
 
 ### Quick run
 
